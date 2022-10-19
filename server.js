@@ -4,7 +4,7 @@ const colors = require('colors');
 const cors = require('cors');
 const { json } = require('body-parser');
 const { nanoid } = require('nanoid');
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 7000;
 
 dotenv.config({ path: './config.env' });
 
