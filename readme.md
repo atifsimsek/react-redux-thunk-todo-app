@@ -1,5 +1,5 @@
 ## React Redux Thunk ToDoApp
-*[Click To Review](https://react-redux-thunk-todo.netlify.app/)
+[Click To Review](https://react-redux-thunk-todo.netlify.app/)
 
 *Redux toolkit and redux thunk used together witch react in this projects.
 
