@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from "react-redux"
-import {filtredTodos, getTodosAsync, toggleTodosAsync,deleteTodosAsync } from '../redux/todos/todosSlice'
+import { filtredTodos, getTodosAsync, toggleTodosAsync, deleteTodosAsync } from '../redux/todos/todosSlice'
 import Erors from './Erors'
 import Loading from './Loading'
 
@@ -14,7 +14,7 @@ const TodoList = () => {
     const dispatch = useDispatch()
     const filtredItems = useSelector(filtredTodos)
 
-    const handleRemove = async (id) =>  {
+    const handleRemove = async (id) => {
 
         window.confirm("Are you sure you want to delete todo ?") && await dispatch(deleteTodosAsync(id))
 
@@ -62,6 +62,7 @@ const TodoList = () => {
                         <li key={item.id} className={item.completed ? "completed" : ""}>
                             <div className="view">
                                 <input
+                                    checked={item.completed}
                                     onChange={() => { handleToggle(item.id, !item.completed) }}
                                     className="toggle"
                                     type="checkbox"
