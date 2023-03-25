@@ -8,7 +8,7 @@
 
 *It is application made in lesson redux of 	[patika.dev](https://www.patika.dev/tr)
 
-**Note: the backend may take some time to start initially, please wait a moment.**
+**Note: Backend may take some time to start initially, please wait a moment.**
 
 <hr>
 
