@@ -355,6 +355,9 @@ html .clear-completed:active {
   font-size: 10px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-align: center;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info p {
@@ -369,6 +372,18 @@ html .clear-completed:active {
 
 .info a:hover {
   text-decoration: underline;
+}
+
+.info-backend {
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #28a745;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*
