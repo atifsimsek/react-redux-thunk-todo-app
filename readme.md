@@ -3,7 +3,7 @@
 
 *Redux toolkit and redux thunk used together witch react in this projects.
 
-*The backend part of the project in [heroku](https://www.heroku.com)
+*The backend part of the project in [render](https://render.com/)
  and the frontend part in [netlify](https://www.netlify.com) working.
 
 *It is application made in lesson redux of 	[patika.dev](https://www.patika.dev/tr)
