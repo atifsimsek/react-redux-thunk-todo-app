@@ -20,17 +20,22 @@ const TodoList = () => {
 
     }
 
-
+    //GET todos
 
     useEffect(() => {
         dispatch(getTodosAsync())
     }, [dispatch])
+
+
+    //Updata todos(completed )
 
     const handleToggle = async (id, completed) => {
 
         await dispatch(toggleTodosAsync({ id, data: { completed } }))
 
     }
+
+    //Loading proceses
 
 
     if (loading) {
@@ -57,6 +62,10 @@ const TodoList = () => {
                         <button className="destroy"></button>
                     </div>
                 </li> */}
+
+
+                {/* Listing todos */}
+
                 {
                     filtredItems.map(item => (
                         <li key={item.id} className={item.completed ? "completed" : ""}>

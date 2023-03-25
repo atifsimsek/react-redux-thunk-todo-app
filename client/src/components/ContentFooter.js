@@ -5,6 +5,11 @@ import { filterTodos, removeCompleted, activeFilter, deleteAllCmpTodosAsync } fr
 const ContentFooter = () => {
 
 
+
+
+    // Filter todos
+
+
     const dispatch = useDispatch()
 
     const items = useSelector(state => state.todoReducer.items)

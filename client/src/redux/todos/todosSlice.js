@@ -6,7 +6,6 @@ import { getTodosAsync, postTodoAsync, toggleTodosAsync, deleteTodosAsync, delet
 
 
 
-
 export const todoSlice = createSlice({
     name: "todos",
     initialState: {
@@ -27,6 +26,7 @@ export const todoSlice = createSlice({
                 // state.items = [...state.items, action.payload]
                 // state.items.push(action.payload)
             },
+
             prepare: ({ title }) => {
                 return {
                     payload: {

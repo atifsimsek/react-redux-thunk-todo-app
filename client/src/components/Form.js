@@ -12,6 +12,10 @@ const Form = () => {
     const error = useSelector(state => state.todoReducer.addTodo.error)
 
 
+
+    // Add todo
+
+
     const handleSubmit = (e) => {
         e.preventDefault()
 
