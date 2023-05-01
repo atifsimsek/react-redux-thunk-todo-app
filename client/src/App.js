@@ -9,7 +9,6 @@ function App() {
         <Header />
         <Content />
         <ContentFooter />
-
       </section>
       <Footer />
     </>
